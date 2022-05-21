@@ -1,0 +1,77 @@
+.mainDiv{
+    width:80%;
+    height:80vh;
+    border : 10px solid #dadce0 ;
+    margin: 4% auto;
+    display :inline-flex;
+}
+
+/* image section */
+.backgroundSec{
+    width:65%;
+}
+.imgSec{
+    width: 100%;
+    position :relative;
+    display:flex;
+    justify-content: center;
+}
+.imgSec img{
+    width:100%;
+    height:80vh;
+}
+
+.textSec{
+    position :absolute;
+    bottom : 40px;
+}
+.textSecHeading{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.textSecPara{
+    font-size: 12px;
+}
+
+/* createAccountSec */
+.createAccountSec{
+    width:50%;
+    display: grid;
+    margin: auto ;
+}
+
+.createAccountSec p {
+    text-align: left;
+    font-size: 18px;
+}
+
+.CreateAccountTitle {
+    text-align: left;
+    font-size: 12px;
+    color:#b7c0c6;
+    text-transform: capitalize;
+}
+
+.input{
+    padding: 7px 5px;
+    border : 1px solid #b7c0c6;
+}
+
+.input:focus{
+    outline: none;
+    border:2px solid #b7c0c6;
+    color:#313334;
+}
+
+.checkboxTitle {
+    font-size: 12px;
+}
+
+.button{
+    width :50%;
+    background-color : #35acfb;
+    border :none;
+    cursor :pointer;
+    padding :10px 0;
+    color :#fff;
+}
